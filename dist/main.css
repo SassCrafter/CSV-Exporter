@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+#dataTable {
+	width: 90%;
+	max-width: 40rem;
+	border-collapse: collapse;
+	margin-bottom: 3rem;
+}
+
+#dataTable thead {
+	text-align: left;
+	background: #44CFCB;
+	color: white;
+}
+
+#dataTable th,
+#dataTable td {
+	padding: 1rem;
+}
+
+#dataTable tr:nth-child(even) {
+	background: #eee;
+}
+
+.btn {
+	display: block;
+	padding: 1rem 1.5rem;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background: darkblue;
+	color: white;
+	transition: opacity 250ms linear;
+}
+
+.btn:hover {
+	opacity: .7;
+}
+

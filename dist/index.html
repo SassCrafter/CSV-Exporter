@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<script src="js/TableCSVExporter.js"></script>
+	<script src="./js/app.js" defer></script>
+	<title>Table To CSV</title>
+</head>
+<body>
+	<table id="dataTable" class="table">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Points</th>
+                <th>Team</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Steven Soto</td>
+                <td>2,462</td>
+                <td>Blue</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Alfred, Hines</td>
+                <td>1,930</td>
+                <td>Blue</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jeff, "The Champion" Foster</td>
+                <td>1,656</td>
+                <td>Red</td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="btnExportToCsv" type="button" class="btn">Export to CSV</button>
+</body>
+</html>
